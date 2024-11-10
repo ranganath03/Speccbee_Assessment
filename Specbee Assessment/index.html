@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specbee Assessment</title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+</head>
+<body>
+    <div class="speakers-section">
+        <div class="speakers-intro">
+            <h1>View our Featured Speakers for the Event</h1>
+            <p>Speakers are core contributors and industry thought leaders working at <span style="color: #003fb4;">companies</span> that push for innovation.</p>
+        </div>
+
+        <div id="speaker-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-button" onclick="closePopup()">×</span>
+                <img src="./Images/speaker1.png" alt="Speaker Image" id="popup-image">
+                <div class="popup-text">
+                    <div class="popup-info">
+                        <h4 id="popup-name">John Doe</h4>
+                        <p id="popup-title">Chief Marketing Officer</p>
+                        <p id="popup-company">Specbee</p>
+                        <div class="popup-icons">
+                            <img src="./Images/icon-1.png" alt="Icon 1">
+                            <img src="./Images/icon-2.png" alt="Icon 2">
+                            <img src="./Images/icon-3.png" alt="Icon 3">
+                        </div>
+                    </div>
+                    <div class="popup-separator">
+                        <img src="./Images/Line-seperator.png" alt="Line-separator">
+                    </div>
+
+                    <p id="popup-description" class="popup-description">
+                        Monotonectally synergize business communities rather than client-centric convergence. Assertively unleash cross-platform best practices rather than pandemic total linkage. Synergistically monetize parallel infomediaries whereas 2.0 mindshare. Dramatically pursue real-time markets through e-business strategic theme areas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="speakers-slider">
+
+             <div class="left-arrow">
+                <img src="./Images/left-arrow.png" alt="Left-arrow">
+             </div>
+
+            <div class="speaker">
+                <img src="./Images/speaker1.png" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Chief Marketing Officer</p>
+                <p>Acme Corp</p>
+            </div>
+            <div class="speaker">
+                <img src="./Images/speaker2.png" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Chief Engagement Officer</p>
+                <p>Acquia</p>
+            </div>
+            <div class="speaker">
+                <img src="./Images/speaker3.png" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Chief Technical Developer</p>
+                <p>Pantheon</p>
+            </div>
+            <div class="speaker">
+                <img src="./Images/speaker4.png" alt="John Doe">
+                <h4>John Doe</h4>
+                <p>Chief Marketing Officer</p>
+                <p>Specbee</p>
+            </div>
+
+            <div class="right-arrow">
+                <img src="./Images/right-arrow.png" alt="Right-arrow">
+            </div>
+        </div>
+
+        <div class="program-container">
+            <div class="program-text">
+                <p>Click here to see <br> the full program</p>
+                <img src="./Images/arrow.png" alt="Arrow" class="arrow-image">
+            </div>
+            <div class="program-button-container">
+                <button class="program-button">See the Program</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
